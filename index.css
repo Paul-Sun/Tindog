@@ -1,0 +1,85 @@
+.body {
+    background-image: linear-gradient(180deg, #FFFFFF, #F6F7FB);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.header-container {
+    width: 300px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 0.5rem 0rem;
+    display: flex;
+    justify-content: space-between
+}
+
+.header-img {
+    height: 1rem;
+ }
+
+.profile-img-container {
+    width: 300px;
+    margin: 0 auto;  
+    position: relative;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.attitude-img{
+    width: 45%;
+    object-fit: scale-down;
+    position: absolute;
+    bottom: 330px;
+    left: 7px;
+    transform: rotate(-30deg);
+       
+}
+.bottom-left-text{    
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #F6F7FB
+  
+}
+
+
+.button-container{
+    width: 300px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+        
+}
+
+button{
+    margin:0 1.5rem;
+    padding: 1rem;
+    border:none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.button-img{
+    height: 1.3rem
+}
+
+#cross-btn:hover{
+    background: #FFE7EF;
+}
+#heart-btn:hover{
+    background: #DBFFF4;
+}
+h2 {
+    margin: 0;    
+    font-family: 'Poppins';
+    font-size: 1rem;  
+    font-weight: 400;
+}
+p{
+    margin: 7px 0;    
+    font-family: 'Poppins';
+    font-size: 0.7rem;  
+    font-weight: 100;
+}
